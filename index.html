@@ -15,22 +15,22 @@
             <!-- Full Name -->
             <div class="form-group">
                 <label for="name">Full Name</label>
-                <input type="text" id='name' placeholder="Full Name" required minlength="3" maxlength="100" name="name">
+                <input type="text" id='name' placeholder="Full Name" required minlength="3" maxlength="100">
             </div>
             <!-- Phone Number -->
             <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" placeholder="###-###-####" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone">
+                <input type="tel" id="phone" placeholder="###-###-####" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
             </div>
             <!-- Email Address -->
             <div class="form-group">
                 <label for="email">Email Address</label>
-                <input type="email" id="email" placeholder="username@hostname.tld" required name="email">
+                <input type="email" id="email" placeholder="username@hostname.tld" required>
             </div>
             <!-- Website URL -->
             <div class="form-group">
                 <label for="website">Website URL</label>
-                <input type="url" id="website" placeholder="https://google.com" required name="website">
+                <input type="url" id="website" placeholder="https://google.com" required>
             </div>
             <!-- Password -->
             <div class="form-group">
@@ -40,7 +40,7 @@
             <!-- Confirm Password -->
             <div class="form-group">
                 <label for="password2">Confirm Password</label>
-                <input type="password" id="password2" placeholder="Confirm Password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" name="password">
+                <input type="password" id="password2" placeholder="Confirm Password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
             </div>
             <button type="submit">Register</button>
         </form>
